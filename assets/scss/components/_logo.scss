@@ -4,7 +4,7 @@
     display: block;
     width: 120px;
   }
-  img {
+  img, svg {
     width: 100%;
     height: auto;
   }
@@ -21,7 +21,7 @@
   @include media-breakpoint-up(sm) {
     display: none;
   }
-  img {
+  img, svg {
     width: 100%;
     height: auto;
   }
